@@ -120,12 +120,12 @@
     <Content Include="css\grayscale.css" />
     <Content Include="css\grayscale.min.css" />
     <Content Include="Global.asax" />
-    <Content Include="img\downloads-bg.jpg" />
     <Content Include="img\intro-bg.jpg" />
     <Content Include="img\logo-main-small.png" />
     <Content Include="img\logo-main.png" />
     <Content Include="img\original-intro-bg.jpg" />
     <Content Include="img\map-marker.png" />
+    <Content Include="img\downloads-bg.jpg" />
     <Content Include="index.html" />
     <Content Include="js\grayscale.js" />
     <Content Include="js\grayscale.min.js" />

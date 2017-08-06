@@ -89,3 +89,4 @@ D:\GitRepo\OmegaCorp\OmegaCorp\bin\System.Web.Helpers.xml
 D:\GitRepo\OmegaCorp\OmegaCorp\bin\System.Web.Mvc.xml
 D:\GitRepo\OmegaCorp\OmegaCorp\obj\Debug\OmegaCorp.dll
 D:\GitRepo\OmegaCorp\OmegaCorp\obj\Debug\OmegaCorp.pdb
+D:\GitRepo\OmegaCorp\OmegaCorp\obj\Debug\OmegaCorp.csprojResolveAssemblyReference.cache
