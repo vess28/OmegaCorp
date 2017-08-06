@@ -43,3 +43,4 @@ D:\GitRepos\OmegaCorp\OmegaCorp\bin\System.Web.Helpers.xml
 D:\GitRepos\OmegaCorp\OmegaCorp\bin\System.Web.Mvc.xml
 D:\GitRepos\OmegaCorp\OmegaCorp\obj\Debug\OmegaCorp.dll
 D:\GitRepos\OmegaCorp\OmegaCorp\obj\Debug\OmegaCorp.pdb
+D:\GitRepos\OmegaCorp\OmegaCorp\obj\Debug\OmegaCorp.csprojResolveAssemblyReference.cache
