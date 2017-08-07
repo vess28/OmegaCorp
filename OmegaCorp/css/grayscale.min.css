@@ -159,7 +159,8 @@ a {
         }
 
         .intro .intro-body .intro-text {
-            font-size: 18px
+            font-size: 34px;
+            padding: 50px;
         }
 
 @media (min-width:768px) {
@@ -173,7 +174,7 @@ a {
         }
 
         .intro .intro-body .intro-text {
-            font-size: 26px
+            font-size: 38px
         }
 }
 
@@ -239,6 +240,26 @@ a {
         transform: scale(1.2)
     }
 }
+
+.main-logo-section {
+    padding-bottom: 50px;
+}
+
+.pillars-section {
+}
+
+    .pillars-section table {
+        column-gap: 10px;
+        border-collapse: separate;
+        border-spacing: 10px 0;
+    }
+
+        .pillars-section table th, td {
+            font-size: 16px;
+            text-align: center;
+            padding: 5px 15px 5px 15px;
+            border: solid 1px white;
+        }
 
 .content-section {
     padding-top: 100px
