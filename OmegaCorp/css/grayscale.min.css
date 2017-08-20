@@ -245,21 +245,17 @@ a {
     padding-bottom: 50px;
 }
 
+.logo-main {
+    margin-top: 100px;
+    z-index: 100;
+}
+
 .pillars-section {
 }
 
-    .pillars-section table {
-        column-gap: 10px;
-        border-collapse: separate;
-        border-spacing: 10px 0;
+    .pillars-section img {
+        margin: 10px 10px 10px 10px
     }
-
-        .pillars-section table th, td {
-            font-size: 16px;
-            text-align: center;
-            padding: 5px 15px 5px 15px;
-            border: solid 1px white;
-        }
 
 .content-section {
     padding-top: 100px
@@ -312,16 +308,16 @@ a {
 }
 
 .btn-default {
-    border: 1px solid #42DCA3;
-    color: #42DCA3;
+    border: 1px solid #9CD9F9;
+    color: #9CD9F9;
     background-color: transparent
 }
 
     .btn-default:focus, .btn-default:hover {
-        border: 1px solid #42DCA3;
+        border: 1px solid #9CD9F9;
         outline: 0;
         color: #000;
-        background-color: #42DCA3
+        background-color: #9CD9F9
     }
 
 ul.banner-social-buttons {
