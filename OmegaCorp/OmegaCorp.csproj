@@ -127,8 +127,11 @@
     <Content Include="img\map-marker.png" />
     <Content Include="img\downloads-bg.jpg" />
     <Content Include="index.html" />
+    <Content Include="js\demo-1.js" />
+    <Content Include="js\EasePack.min.js" />
     <Content Include="js\grayscale.js" />
     <Content Include="js\grayscale.min.js" />
+    <Content Include="js\TweenLite.min.js" />
     <Content Include="vendor\bootstrap\css\bootstrap.css" />
     <Content Include="vendor\bootstrap\css\bootstrap.min.css" />
     <Content Include="vendor\bootstrap\fonts\glyphicons-halflings-regular.svg" />

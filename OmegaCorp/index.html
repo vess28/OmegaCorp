@@ -72,6 +72,13 @@
 
     <!-- Intro Header -->
     <header class="intro">
+
+        <!-- Start animation -->
+        <div id="large-header" class="large-header" style="position:absolute; z-index:1">
+            <canvas id="demo-canvas"></canvas>
+        </div>
+        <!-- End animation -->
+
         <div class="intro-body">
             <div class="container">
                 <div class="row">
@@ -90,6 +97,12 @@
     </header>
 
     <!-- About Section -->
+    <div>
+        <div id="large-header" class="large-header">
+            <canvas id="demo-canvas"></canvas>
+        </div>
+    </div>
+
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
@@ -193,6 +206,13 @@
 
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>
+
+    <!-- Interactive Background Script -->
+
+    <script src="js/TweenLite.min.js"></script>
+    <script src="js/EasePack.min.js"></script>
+    <script src="js/rAF.js"></script>
+    <script src="js/demo-1.js"></script>
 
 </body>
 
