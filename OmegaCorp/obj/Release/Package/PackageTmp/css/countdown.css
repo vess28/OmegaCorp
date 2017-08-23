@@ -1,0 +1,35 @@
+﻿@import "lesshat";
+
+.countdown-ul {
+    min-height: 100%;
+    position: relative;
+    text-align: center;
+    color: #E7F7F5;
+    padding:15px;
+    font-size: 12pt;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+.chart {
+    display: inline-block;
+    width: 95px;
+    height: 95px;
+    margin: 0 10px;
+    vertical-align: top;
+    position: relative;
+    padding-top: 22px;
+}
+
+span {
+    display: block;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
