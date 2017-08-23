@@ -159,7 +159,7 @@ a {
         }
 
         .intro .intro-body .intro-text {
-            font-size: 34px;
+            font-size: 4vw;
             padding: 50px;
         }
 
@@ -246,6 +246,7 @@ a {
 }
 
 .logo-main {
+    width:60%;
     margin-top: 100px;
     z-index: 100;
 }
