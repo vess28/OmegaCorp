@@ -254,6 +254,7 @@ a {
 }
 
     .pillars-section img {
+        width: 30%;
         margin: 10px 10px 10px 10px
     }
 
@@ -375,3 +376,7 @@ img::-moz-selection {
     padding-bottom: 50px;
     text-align: center
 }
+
+    .roadmap img {
+        width: 100%
+    }
