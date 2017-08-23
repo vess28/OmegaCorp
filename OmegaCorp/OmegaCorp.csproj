@@ -130,6 +130,8 @@
     <Content Include="img\pillar01.png" />
     <Content Include="img\pillar02.png" />
     <Content Include="img\pillar03.png" />
+    <Content Include="img\roadmap01.png" />
+    <Content Include="img\roadmap02.png" />
     <Content Include="index.html" />
     <Content Include="js\countdown.js" />
     <Content Include="js\demo-1.js" />
