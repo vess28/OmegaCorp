@@ -117,6 +117,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\countdown.css" />
     <Content Include="css\grayscale.css" />
     <Content Include="css\grayscale.min.css" />
     <Content Include="Global.asax" />
@@ -130,6 +131,7 @@
     <Content Include="img\pillar02.png" />
     <Content Include="img\pillar03.png" />
     <Content Include="index.html" />
+    <Content Include="js\countdown.js" />
     <Content Include="js\demo-1.js" />
     <Content Include="js\EasePack.min.js" />
     <Content Include="js\grayscale.js" />
