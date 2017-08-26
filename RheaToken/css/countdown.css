@@ -1,35 +1,72 @@
-﻿@import "lesshat";
+﻿html, body {
+    height: 100%;
+}
 
-.countdown-ul {
-    min-height: 100%;
+html {
+    background-image: url('../img/sample.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    background-color: rgba(44,62,80, 0.6 );
+    background-image: url('../img/pattern.png');
+    background-position: center;
+    background-repeat: repeat;
+    font-family: 'Raleway', 'Arial', sans-serif;
+}
+
+.countdown-container {
     position: relative;
-    text-align: center;
-    color: #E7F7F5;
-    padding:15px;
-    font-size: 12pt;
-    font-weight: 100;
-    letter-spacing: 1px;
-    line-height: 1;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
-.chart {
-    display: inline-block;
-    width: 95px;
-    height: 95px;
-    margin: 0 10px;
-    vertical-align: top;
+.clock-item .inner {
+    height: 0px;
+    padding-bottom: 100%;
     position: relative;
-    padding-top: 22px;
+    width: 100%;
 }
 
-.countdown-ul span {
-    display: block;
-    font-size: 2em;
-    font-weight: normal;
+.clock-canvas {
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 50%;
+    height: 0px;
+    padding-bottom: 100%;
 }
 
-canvas {
+.text {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -50px;
     position: absolute;
-    left: 0;
-    top: 0;
+    top: 50%;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    width: 100%;
+}
+
+    .text .val {
+        font-size: 3vw;
+    }
+
+    .text .type-time {
+        font-size: 1vw;
+    }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .clock-item {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .clock-item {
+        margin: 0px 30px 30px 30px;
+    }
 }

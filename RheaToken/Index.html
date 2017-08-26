@@ -21,7 +21,6 @@
 
     <!-- Theme CSS -->
     <link href="css/grayscale.min.css" rel="stylesheet">
-    <link href="css/countdown.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -94,11 +93,67 @@
                         <!--<a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>-->
-                        <ul class="col-lg-12 countdown-ul">
-                            <li class="chart" data-percent="75"><span>26</span>Days</li>
-                            <li class="chart" data-percent="15"><span>15</span>Hours</li>
-                            <li class="chart" data-percent="83"><span>50</span>Minutes</li>
-                        </ul>
+                        
+                        <!-- Countdown -->
+                        <div class="countdown-container container">
+                            <div class="clock row">
+
+                                <!-- days -->
+                                <div class="clock-item clock-days countdown-time-value col-sm-6 col-md-3">
+                                    <div class="wrap">
+                                        <div class="inner">
+                                            <div id="canvas_days" class="clock-canvas"></div>
+                                            <div class="text">
+                                                <p class="val">0</p>
+                                                <p class="type-days type-time">DAYS</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- hours -->
+
+                                <div class="clock-item clock-hours countdown-time-value col-sm-6 col-md-3">
+                                    <div class="wrap">
+                                        <div class="inner">
+                                            <div id="canvas_hours" class="clock-canvas"></div>
+                                            <div class="text">
+                                                <p class="val">0</p>
+                                                <p class="type-hours type-time">HOURS</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- minutes -->
+                                <div class="clock-item clock-minutes countdown-time-value col-sm-6 col-md-3">
+                                    <div class="wrap">
+                                        <div class="inner">
+                                            <div id="canvas_minutes" class="clock-canvas"></div>
+                                            <div class="text">
+                                                <p class="val">0</p>
+                                                <p class="type-minutes type-time">MINUTES</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- seconds -->
+                                <div class="clock-item clock-seconds countdown-time-value col-sm-6 col-md-3">
+                                    <div class="wrap">
+                                        <div class="inner">
+                                            <div id="canvas_seconds" class="clock-canvas"></div>
+                                            <div class="text">
+                                                <p class="val">0</p>
+                                                <p class="type-seconds type-time">SECONDS</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Countdown End -->
+
                     </div>
                 </div>
             </div>
@@ -172,14 +227,14 @@
                     <h2>Documentation</h2>
                     <p>
                         The possibilities are endless!
-                        <br />Here are some files to help you get started:
+                        <br />Here are some files to help get you started:
                     </p>
                     <ul class="list-inline banner-social-buttons">
                         <li>
                             <a href="" class="btn btn-default btn-lg">Whitepaper</a>
                         </li>
                         <li>
-                            <a href="" class="btn btn-default btn-lg">Terms & Conditions</a>
+                            <a href="documentation/TermsConditions.pdf" target="_blank" class="btn btn-default btn-lg">Terms & Conditions</a>
                         </li>
                         <li>
                             <a href="" class="btn btn-default btn-lg">Options 101</a>
@@ -227,15 +282,20 @@
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>
 
-    <!-- Countdown JavaScript -->
-    <script src="js/countdown.js"></script>
-
     <!-- Interactive Background Script -->
 
     <script src="js/TweenLite.min.js"></script>
     <script src="js/EasePack.min.js"></script>
     <script src="js/rAF.js"></script>
     <script src="js/demo-1.js"></script>
+
+    <!-- Countdown Javascript -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/kinetic.js"></script>
+    <script type="text/javascript" src="../jquery.final-countdown.js"></script>  
+    
+    <!-- Countdown Css -->
+    <link href="css/countdown.css" rel="stylesheet">
 
 </body>
 
