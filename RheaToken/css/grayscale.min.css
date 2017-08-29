@@ -387,6 +387,11 @@ img::-moz-selection {
     padding-bottom: 50px;
 }
 
+.team-photos {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .line-separator {
     padding-bottom: 20px;
 }
