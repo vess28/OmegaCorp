@@ -49,7 +49,7 @@ p {
 }
 
 a {
-    color: #42DCA3;
+    color: #9CD9F9;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out
@@ -57,7 +57,7 @@ a {
 
     a:focus, a:hover {
         text-decoration: none;
-        color: #1d9b6c
+        color: #4f91ff
     }
 
 .light {
@@ -160,7 +160,7 @@ a {
 
         .intro .intro-body .intro-text {
             font-size: 4vw;
-            padding: 50px;
+            padding: 30px;
         }
 
 @media (min-width:768px) {
@@ -174,7 +174,7 @@ a {
         }
 
         .intro .intro-body .intro-text {
-            font-size: 38px
+            font-size: 2.25vw
         }
 }
 
@@ -381,3 +381,12 @@ img::-moz-selection {
     .roadmap img {
         width: 100%
     }
+
+.team {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.line-separator {
+    padding-bottom: 20px;
+}

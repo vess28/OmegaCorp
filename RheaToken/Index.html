@@ -77,7 +77,7 @@
     <header class="intro">
 
         <!-- Start animation -->
-        <div id="large-header" class="large-header" style="position:absolute; z-index:1">
+        <div id="large-header" class="large-header" style="position:absolute;">
             <canvas id="demo-canvas"></canvas>
         </div>
         <!-- End animation -->
@@ -85,74 +85,23 @@
         <div class="intro-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-8 col-lg-offset-2">
                         <img src="img/logo-main.png" alt="RHEA" class="logo-main" />
                         <p class="intro-text">
                             BREAKING THE META!
+                            <ul class="list-inline banner-social-buttons">
+                                <li>
+                                    <a href="documentation/WhitePaper.pdf" target="_blank" class="btn btn-default btn-lg">Whitepaper</a>
+                                </li>
+                                <li>
+                                    <a href="#getrhea" class="btn btn-default btn-lg page-scroll">Contribute</a>
+                                </li>
+                            </ul>
                         </p>
+
                         <!--<a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>-->
-                        
-                        <!-- Countdown -->
-                        <div class="countdown-container container">
-                            <div class="clock row">
-
-                                <!-- days -->
-                                <div class="clock-item clock-days countdown-time-value col-sm-6 col-md-3">
-                                    <div class="wrap">
-                                        <div class="inner">
-                                            <div id="canvas_days" class="clock-canvas"></div>
-                                            <div class="text">
-                                                <p class="val">0</p>
-                                                <p class="type-days type-time">DAYS</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- hours -->
-
-                                <div class="clock-item clock-hours countdown-time-value col-sm-6 col-md-3">
-                                    <div class="wrap">
-                                        <div class="inner">
-                                            <div id="canvas_hours" class="clock-canvas"></div>
-                                            <div class="text">
-                                                <p class="val">0</p>
-                                                <p class="type-hours type-time">HOURS</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- minutes -->
-                                <div class="clock-item clock-minutes countdown-time-value col-sm-6 col-md-3">
-                                    <div class="wrap">
-                                        <div class="inner">
-                                            <div id="canvas_minutes" class="clock-canvas"></div>
-                                            <div class="text">
-                                                <p class="val">0</p>
-                                                <p class="type-minutes type-time">MINUTES</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- seconds -->
-                                <div class="clock-item clock-seconds countdown-time-value col-sm-6 col-md-3">
-                                    <div class="wrap">
-                                        <div class="inner">
-                                            <div id="canvas_seconds" class="clock-canvas"></div>
-                                            <div class="text">
-                                                <p class="val">0</p>
-                                                <p class="type-seconds type-time">SECONDS</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Countdown End -->
 
                     </div>
                 </div>
@@ -191,6 +140,34 @@
             </div>
         </div>
 
+        <div class="row">
+            <div class="col-lg-12 team">
+                <h2>The Team</h2>
+
+                <div class="col-lg-12">
+                    <img src="img/photo-detelin.png" alt="Photo Team" class="col-lg-4" />
+                    <img src="img/photo-georgi.png" alt="Photo Team" class="col-lg-4" />
+                    <img src="img/photo-vesselin.png" alt="Photo Team" class="col-lg-4" />
+                </div>
+                <br />
+                <p>
+                    Omega Crypto Assets Ltd. Is a Bulgarian company, responsible for developing the Rhea project. It will be the legal entity behind the platform. The team currently consists of three members.
+                </p>
+                <p>
+                    Detelin comes from an economic background. Having discovered the fascinating world of financial markets he started making a living from them. Working as an equity trader, he also developed a passion for cryptocurrencies. After this, he came up with the Rhea project with one goal in mind – to create a unique hybrid product.
+                </p>
+                <p>
+                    Georgi also has an economic education and experience as an equity trader. His advanced knowledge in cryptocurrencies pushed him to work towards his private venture. He teamed up with Detelin to found the Rhea project.
+                </p>
+                <p>
+                    Vesselin is an IT-specialist with a wide range of skills in programming. He joined the Rhea project to setup the technical aspects of the ICO and to later become the team leader of the new IT team.
+                </p>
+                <div>
+                    <img src="img/line.png" alt="Line" class="col-lg-12 line-separator" />
+                </div>
+            </div>
+        </div>
+
     </section>
 
     <!-- Contact Section -->
@@ -199,10 +176,15 @@
         <div class="row contacts-section">
             <div class="col-lg-12">
                 <h2>Contact</h2>
-                <p>
-                    <br>
-                    <a href="mailto:ico@rheatoken.io">Ico@Rheatoken.io</a>
-                </p>
+
+                <br>
+                <a href="mailto:ico@rheatoken.io">Ico@Rheatoken.io</a>
+
+                <form action="/action_page.php">
+                    <input class="btn btn-default btn-lg" type="email" name="email">
+                    <input class="btn btn-default btn-lg" type="submit" value="Subscribe">
+                </form>
+
                 <br>
                 <ul class="list-inline banner-social-buttons">
                     <li>
@@ -226,12 +208,14 @@
                 <div class="col-lg-12">
                     <h2>Documentation</h2>
                     <p>
-                        The possibilities are endless!
-                        <br />Here are some files to help get you started:
+                        Below you can find all relevant information about the Rhea project.<br />
+                        WhitePaper covers all aspects of the platform in depth.<br />
+                        Terms & Conditions is a must-read for all contributors prior to making the decision to send Ether.<br />
+                        Options 101 goes through option basics for those unfamiliar with the concept.<br />
                     </p>
                     <ul class="list-inline banner-social-buttons">
                         <li>
-                            <a href="" class="btn btn-default btn-lg">Whitepaper</a>
+                            <a href="documentation/WhitePaper.pdf" target="_blank" class="btn btn-default btn-lg">Whitepaper</a>
                         </li>
                         <li>
                             <a href="documentation/TermsConditions.pdf" target="_blank" class="btn btn-default btn-lg">Terms & Conditions</a>
@@ -246,19 +230,86 @@
     </section>
 
     <!-- Get Rhea Section -->
-    <div>
-        <div id="large-header" class="large-header">
-            <canvas id="demo-canvas"></canvas>
-        </div>
-    </div>
-
     <section id="getrhea" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-12">
-                <h2>Get Rhea</h2>
-                <p>
-                    Get Rhea now!
-                </p>
+                <img src="img/logo-get-rhea.png" alt="Get Rhea" class="col-lg-4 col-lg-offset-4" />
+            </div>
+            <div class="col-lg-12">
+                <table style="width:100%">
+                    <tr>
+                        <td>Rhea Address</td>
+                        <td>1234567890</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <img src="img/line.png" alt="Line" class="col-lg-12 line-separator" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Minimum Contribution</td>
+                        <td>0.1 ETH</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <img src="img/line.png" alt="Line" class="col-lg-12 line-separator" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Offering Period</td>
+                        <td>2nd October - 30th October</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <img src="img/line.png" alt="Line" class="col-lg-12 line-separator" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Token Supply</td>
+                        <td>50 000 000 Tokens Fixed Supply</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <img src="img/line.png" alt="Line" class="col-lg-12 line-separator" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Contribution Methods</td>
+                        <td>MyEtherWallet and Metamask</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <img src="img/line.png" alt="Line" class="col-lg-12 line-separator" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Price Per Token</td>
+                        <td>1 Rhea = 0.001 ETH</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <img src="img/line.png" alt="Line" class="col-lg-12 line-separator" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Gas Limit</td>
+                        <td>200 000</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <img src="img/line.png" alt="Line" class="col-lg-12 line-separator" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Decimals</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <img src="img/line.png" alt="Line" class="col-lg-12 line-separator" />
+                        </td>
+                    </tr>
+                </table>
             </div>
         </div>
     </section>
@@ -288,14 +339,6 @@
     <script src="js/EasePack.min.js"></script>
     <script src="js/rAF.js"></script>
     <script src="js/demo-1.js"></script>
-
-    <!-- Countdown Javascript -->
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="js/kinetic.js"></script>
-    <script type="text/javascript" src="../jquery.final-countdown.js"></script>  
-    
-    <!-- Countdown Css -->
-    <link href="css/countdown.css" rel="stylesheet">
 
 </body>
 
