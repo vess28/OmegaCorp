@@ -4,47 +4,52 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url(../fonts/MyriadPro-Regular.otf);
+}
+
 body, html {
     height: 100%;
-    width: 100%
+    width: 100%;
 }
 
 .navbar-custom, body {
-    background-color: #000
+    background-color: #000;
 }
 
 .intro, body, html {
-    width: 100%
+    width: 100%;
 }
 
 body {
-    font-family: 'Century Gothic',Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Myriad Pro',Arial,sans-serif;
     color: #fff;
-    webkit-tap-highlight-color: rgba(255,255,255,.2)
+    webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
 .btn, .navbar-custom, h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
-    font-family: 'Century Gothic',Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif
+    font-family: 'Myriad Pro',Arial,sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0 0 35px;
     font-weight: 700;
-    letter-spacing: 1px
+    letter-spacing: 1px;
 }
 
 p {
     margin: 0 0 25px;
     font-size: 18px;
-    line-height: 1.5
+    line-height: 1.5;
 }
 
 @media (min-width:768px) {
     p {
         margin: 0 0 35px;
         font-size: 20px;
-        line-height: 1.6
+        line-height: 1.6;
     }
 }
 
@@ -52,70 +57,70 @@ a {
     color: #9CD9F9;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out
+    transition: all .2s ease-in-out;
 }
 
     a:focus, a:hover {
         text-decoration: none;
-        color: #4f91ff
+        color: #4f91ff;
     }
 
 .light {
-    font-weight: 400
+    font-weight: 400;
 }
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3)
+    border-bottom: 1px solid rgba(255,255,255,.3);
 }
 
     .navbar-custom .navbar-toggle {
         color: #fff;
         background-color: rgba(255,255,255,.2);
-        font-size: 12px
+        font-size: 12px;
     }
 
     .navbar-custom .nav li a:active, .navbar-custom .nav li a:focus, .navbar-custom .nav li a:hover {
         background-color: transparent;
-        outline: 0
+        outline: 0;
     }
 
     .navbar-custom .navbar-toggle:active, .navbar-custom .navbar-toggle:focus {
-        outline: 0
+        outline: 0;
     }
 
     .navbar-custom .navbar-brand {
-        font-weight: 700
+        font-weight: 700;
     }
 
         .navbar-custom .navbar-brand:focus {
-            outline: 0
+            outline: 0;
         }
 
     .navbar-custom a {
-        color: #fff
+        color: #fff;
     }
 
     .navbar-custom .nav li a {
         -webkit-transition: background .3s ease-in-out;
         -moz-transition: background .3s ease-in-out;
-        transition: background .3s ease-in-out
+        transition: background .3s ease-in-out;
     }
 
         .navbar-custom .nav li a:hover {
-            color: rgba(255,255,255,.8)
+            color: rgba(255,255,255,.8);
         }
 
     .navbar-custom .nav li.active {
-        outline: 0
+        outline: 0;
     }
 
         .navbar-custom .nav li.active a {
-            background-color: rgba(255,255,255,.3)
+            background-color: rgba(255,255,255,.3);
         }
 
             .navbar-custom .nav li.active a:hover {
-                color: #fff
+                color: #fff;
             }
 
 @media (min-width:768px) {
@@ -126,13 +131,13 @@ a {
         background: 0 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
 
         .navbar-custom.top-nav-collapse {
             padding: 0;
             background: #000;
-            border-bottom: 1px solid rgba(255,255,255,.3)
+            border-bottom: 1px solid rgba(255,255,255,.3);
         }
 }
 
@@ -146,16 +151,16 @@ a {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover
+    -o-background-size: cover;
 }
 
     .intro .intro-body {
         display: table-cell;
-        vertical-align: middle
+        vertical-align: middle;
     }
 
         .intro .intro-body .brand-heading {
-            font-size: 40px
+            font-size: 40px;
         }
 
         .intro .intro-body .intro-text {
@@ -166,15 +171,15 @@ a {
 @media (min-width:768px) {
     .intro {
         height: 100%;
-        padding: 0
+        padding: 0;
     }
 
         .intro .intro-body .brand-heading {
-            font-size: 100px
+            font-size: 100px;
         }
 
         .intro .intro-body .intro-text {
-            font-size: 2.25vw
+            font-size: 2.25vw;
         }
 }
 
@@ -190,20 +195,20 @@ a {
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out
+    transition: background .3s ease-in-out;
 }
 
     .btn-circle:focus, .btn-circle:hover {
         outline: 0;
         color: #fff;
-        background: rgba(255,255,255,.1)
+        background: rgba(255,255,255,.1);
     }
 
     .btn-circle i.animated {
         -webkit-transition-property: -webkit-transform;
         -webkit-transition-duration: 1s;
         -moz-transition-property: -moz-transform;
-        -moz-transition-duration: 1s
+        -moz-transition-duration: 1s;
     }
 
     .btn-circle:hover i.animated {
@@ -214,30 +219,30 @@ a {
         -webkit-animation-iteration-count: infinite;
         -moz-animation-iteration-count: infinite;
         -webkit-animation-timing-function: linear;
-        -moz-animation-timing-function: linear
+        -moz-animation-timing-function: linear;
     }
 
 @-webkit-keyframes pulse {
     0%,100% {
         -webkit-transform: scale(1);
-        transform: scale(1)
+        transform: scale(1);
     }
 
     50% {
         -webkit-transform: scale(1.2);
-        transform: scale(1.2)
+        transform: scale(1.2);
     }
 }
 
 @-moz-keyframes pulse {
     0%,100% {
         -moz-transform: scale(1);
-        transform: scale(1)
+        transform: scale(1);
     }
 
     50% {
         -moz-transform: scale(1.2);
-        transform: scale(1.2)
+        transform: scale(1.2);
     }
 }
 
@@ -246,7 +251,7 @@ a {
 }
 
 .logo-main {
-    width:60%;
+    width: 60%;
     margin-top: 100px;
     z-index: 100;
 }
@@ -255,12 +260,11 @@ a {
 }
 
     .pillars-section img {
-        width: 29%;
-        margin: 10px 10px 10px 10px
+        margin-bottom: 30px;
     }
 
 .content-section {
-    padding-top: 100px
+    padding-top: 100px;
 }
 
 .download-section {
@@ -283,21 +287,21 @@ a {
 #map {
     width: 100%;
     height: 200px;
-    margin-top: 100px
+    margin-top: 100px;
 }
 
 @media (min-width:767px) {
     .content-section {
-        padding-top: 150px
+        padding-top: 150px;
     }
 
     .download-section {
-        padding: 100px 0
+        padding: 100px 0;
     }
 
     #map {
         height: 400px;
-        margin-top: 250px
+        margin-top: 250px;
     }
 }
 
@@ -306,29 +310,29 @@ a {
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    border-radius: 0
+    border-radius: 0;
 }
 
 .btn-default {
     border: 1px solid #9CD9F9;
     color: #9CD9F9;
-    background-color: transparent
+    background-color: transparent;
 }
 
     .btn-default:focus, .btn-default:hover {
         border: 1px solid #9CD9F9;
         outline: 0;
         color: #000;
-        background-color: #9CD9F9
+        background-color: #9CD9F9;
     }
 
 ul.banner-social-buttons {
-    margin-top: 0
+    margin-top: 0;
 }
 
 @media (max-width:1199px) {
     ul.banner-social-buttons {
-        margin-top: 15px
+        margin-top: 15px;
     }
 }
 
@@ -336,50 +340,50 @@ ul.banner-social-buttons {
     ul.banner-social-buttons li {
         display: block;
         margin-bottom: 20px;
-        padding: 0
+        padding: 0;
     }
 
         ul.banner-social-buttons li:last-child {
-            margin-bottom: 0
+            margin-bottom: 0;
         }
 }
 
 footer {
-    padding: 50px 0
+    padding: 50px 0;
 }
 
     footer p {
-        margin: 0
+        margin: 0;
     }
 
 ::-moz-selection {
     text-shadow: none;
     background: #fcfcfc;
-    background: rgba(255,255,255,.2)
+    background: rgba(255,255,255,.2);
 }
 
 ::selection {
     text-shadow: none;
     background: #fcfcfc;
-    background: rgba(255,255,255,.2)
+    background: rgba(255,255,255,.2);
 }
 
 img::selection {
-    background: 0 0
+    background: 0 0;
 }
 
 img::-moz-selection {
-    background: 0 0
+    background: 0 0;
 }
 
 .roadmap {
     padding-top: 150px;
     padding-bottom: 50px;
-    text-align: center
+    text-align: center;
 }
 
     .roadmap img {
-        width: 100%
+        width: 100%;
     }
 
 .team {
@@ -388,6 +392,10 @@ img::-moz-selection {
 }
 
 .team-photos {
+    padding-top: 50px;
+}
+
+.team-info{
     padding-top: 50px;
     padding-bottom: 50px;
 }
