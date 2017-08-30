@@ -1,0 +1,10 @@
+﻿.countdown{
+    margin: 50px;
+}
+
+.countdown-element{
+    padding: 13px;
+    margin: 8px;
+    border: 1pt solid #C5C5C5;
+    background-color: rgba(255, 255, 255, 0.15); /* Color white with alpha 0.9*/
+}

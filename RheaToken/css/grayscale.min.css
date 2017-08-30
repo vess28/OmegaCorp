@@ -395,7 +395,11 @@ img::-moz-selection {
     padding-top: 50px;
 }
 
-.team-info{
+    .team-photos img {
+        padding-bottom: 20px;
+    }
+
+.team-info {
     padding-top: 50px;
     padding-bottom: 50px;
 }
