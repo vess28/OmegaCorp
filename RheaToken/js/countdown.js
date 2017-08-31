@@ -12,13 +12,31 @@ var x = setInterval(function () {
 
     // Time calculations for days, hours, minutes and seconds
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    if (days < 10) {
+        days = "0" + days;
+    }
+
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    if (hours < 10) {
+        hours = "0" + hours;
+    }
+
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    if (minutes < 10) {
+        minutes = "0" + minutes;
+    }
+
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    if (seconds < 10) {
+        seconds = "0" + seconds;
+    }
+
+    var openingTag = "<td class=\"countdown-element\">"
+    var closingTag = "</td>";
 
     // Display the result in the element with id="countdown"
-    document.getElementById("countdown").innerHTML = "<span class=\"countdown-element\">" + days + "d</span>" + "<span class=\"countdown-element\">" + hours + "h</span>"
-    + "<span class=\"countdown-element\">" + minutes + "m</span>" + "<span class=\"countdown-element\">" + seconds + "s</span>";
+    document.getElementById("countdown").innerHTML = openingTag + days + closingTag + openingTag + hours + closingTag
+    + openingTag + minutes + closingTag + openingTag + seconds + closingTag;
 
     // If the count down is finished, write some text 
     if (distance < 0) {
