@@ -208,12 +208,29 @@
                 </ul>
 
                 <div class="subscribe-section">
-                    <!--<form action="php/subscribe.php" method="post">
-                        <input class="input-default input-lg" type="email" name="email">
-                        <input class="btn btn-default btn-lg" type="submit" value="Subscribe">
-                    </form>
-                    <a href="asp/subscribe.aspx" target="_blank" class="btn btn-default btn-lg">Subscribe</a>-->
-                    <a href="" target="_blank" class="btn btn-default btn-lg" onClick="MyWindow=window.open('asp/subscribe.aspx','Subscription',width=200,height=200); return false;">Subscribe</a>
+                    <!-- Trigger the modal with a button -->
+                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">Subscribe</button>
+
+                    <!-- Modal -->
+                    <div class="modal fade subscribe-modal" id="myModal" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Subscribe</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>
+                                        Enter your e-mail to stay informed about all things Rhea!
+                                    </p>
+                                        <iframe src="asp/Subscribe.aspx" frameborder="0" class="subscribe-frame"></iframe>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

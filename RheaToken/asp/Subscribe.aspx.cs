@@ -28,21 +28,6 @@ public partial class asp_Subscribe : System.Web.UI.Page
 
         try
         {
-            /*
-            conn.Open();
-            SqlCommand cmd = new SqlCommand(sql, conn);
-            SqlParameter[] param = new SqlParameter[1];
-            //param[0] = new SqlParameter("@id", SqlDbType.Int, 20);
-            param[0] = new SqlParameter("@email", SqlDbType.VarChar, 255);
-
-            param[0].Value = email;
-
-            cmd.Parameters.Add(param[0]);
-
-            cmd.CommandType = CommandType.Text;
-            cmd.ExecuteNonQuery();
-            */
-
             conn.Open();
             SqlCommand cmd = new SqlCommand(sql, conn);
             SqlParameter param = new SqlParameter();
@@ -87,22 +72,22 @@ public partial class asp_Subscribe : System.Web.UI.Page
 
         if (string.IsNullOrEmpty(currentEmail))
         {
-            Response.Write("Please enter your e-mail.");
+            Response.Write("<p class=\"message-fail\">Please enter your e-mail!</p>");
             textEmail.Focus();
             return;
         }
 
         if (!currentEmail.Contains("@"))
         {
-            Response.Write("Your e-mail must contain an '@' symbol.");
+            Response.Write("<p class=\"message-fail\">Your e-mail must contain an '@' symbol!</p>");
             textEmail.Focus();
             return;
         }
 
         //call the method to execute insert to the database
         ExecuteInsert(textEmail.Text);
-        Response.Write("Record was successfully added!");
-        //ClearControls(Page);
-
+        textEmail.Visible = false;
+        btnSubscribe.Visible = false;
+        Response.Write("<p class=\"message-success\">Thank you for subscribing!</p>");
     }
 }

@@ -306,7 +306,6 @@ a {
 }
 
 .btn {
-    margin-bottom: 3px;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -326,17 +325,6 @@ a {
         color: #000;
         background-color: #9CD9F9;
     }
-
-.input-default {
-    font-weight: 400;
-    color: #9CD9F9;
-    background-color: transparent;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-    border: 1px solid #9CD9F9;
-    border-radius: 0;
-}
 
 ul.banner-social-buttons {
     margin-top: 0;
@@ -435,9 +423,22 @@ img::-moz-selection {
     padding: 30px;
 }
 
-.price-table{
-    margin:auto;
-    text-align:start;
+.subscribe-modal {
+    color: black;
+}
+
+    .modal-body p {
+        margin-bottom: 15px;
+    }
+
+.subscribe-frame {
+    height: 100%;
+    width: 100%;
+}
+
+.price-table {
+    margin: auto;
+    text-align: start;
 }
 
 .line-separator {
