@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RheaToken", "RheaToken\", "{56022E9C-93EA-4179-9D2B-84C880DBB631}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RheaToken", "RheaToken\", "{A82C110A-0625-430E-BAF7-57364597EDB5}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_53412"
@@ -29,8 +29,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{56022E9C-93EA-4179-9D2B-84C880DBB631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{56022E9C-93EA-4179-9D2B-84C880DBB631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A82C110A-0625-430E-BAF7-57364597EDB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A82C110A-0625-430E-BAF7-57364597EDB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
