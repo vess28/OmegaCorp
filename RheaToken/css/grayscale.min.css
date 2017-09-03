@@ -267,13 +267,15 @@ a {
     padding-top: 100px;
 }
 
-.download-section {
+.documentation-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
 }
 
 .contacts-section {
+    margin-left:0px;
+    margin-right:0px;
     width: 100%;
     padding: 50px 0;
     color: #fff;
@@ -292,7 +294,7 @@ a {
 
 @media (min-width:767px) {
     .content-section {
-        padding-top: 150px;
+        padding-top: 100px;
     }
 
     .download-section {
@@ -387,8 +389,8 @@ img::-moz-selection {
     }
 
 .team {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 150px;
+    padding-bottom: 15px;
 }
 
 .team-photos {
@@ -396,6 +398,7 @@ img::-moz-selection {
 }
 
     .team-photos img {
+        padding-top: 20px;
         padding-bottom: 20px;
     }
 
