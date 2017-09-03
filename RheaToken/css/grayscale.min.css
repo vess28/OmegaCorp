@@ -427,20 +427,36 @@ img::-moz-selection {
     color: black;
 }
 
-    .modal-body p {
-        margin-bottom: 15px;
-    }
+.modal-body p {
+    margin-bottom: 15px;
+}
 
 .subscribe-frame {
     height: 100%;
     width: 100%;
 }
 
+.get-rhea-logo {
+    margin-bottom: 40px;
+}
+
+.get-rhea-table {
+    font-size: 14pt;
+}
+
+    .get-rhea-table td {
+        width: 50%;
+    }
+
 .price-table {
     margin: auto;
     text-align: start;
 }
 
-.line-separator {
+.price-table td{
+    width:100%;
+}
+
+    .line-separator {
     padding-bottom: 20px;
 }
