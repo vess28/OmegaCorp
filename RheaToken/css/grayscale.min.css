@@ -146,6 +146,11 @@ a {
         }
 }
 
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .intro {
     display: table;
     height: auto;
@@ -406,7 +411,7 @@ img::-moz-selection {
 
 .roadmap {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
     text-align: center;
 }
 
@@ -450,7 +455,7 @@ img::-moz-selection {
 
     .email-link:hover {
         color: #9CD9F9;
-        text-decoration:underline;
+        text-decoration: underline;
     }
 
 .subscribe-section {
