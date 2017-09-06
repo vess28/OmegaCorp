@@ -266,6 +266,10 @@ a {
     z-index: 100;
 }
 
+.section-title {
+    margin-bottom: 30px;
+}
+
 .pillars-section {
 }
 
@@ -412,10 +416,9 @@ img::-moz-selection {
 .roadmap {
     padding-top: 100px;
     padding-bottom: 150px;
-    text-align: center;
 }
 
-    .roadmap img {
+    .roadmap-img {
         width: 100%;
     }
 
@@ -425,7 +428,6 @@ img::-moz-selection {
 }
 
 .team-photos {
-    padding-top: 10px;
 }
 
     .team-photos img {
@@ -445,7 +447,7 @@ img::-moz-selection {
 
 .email-section {
     margin: auto;
-    padding: 30px;
+    margin-bottom: 30px;
 }
 
 .email-link {
