@@ -175,6 +175,8 @@ a {
 
         .intro .intro-body .intro-text {
             font-size: 4vw;
+            margin-left:auto;
+            margin-right:auto;
             padding: 30px;
         }
 
