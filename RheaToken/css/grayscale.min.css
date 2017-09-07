@@ -437,6 +437,7 @@ img::-moz-selection {
     .team-photos img {
         padding-top: 20px;
         padding-bottom: 20px;
+        margin-bottom: 15px;
     }
 
         .team-photos img:hover {
