@@ -320,6 +320,11 @@ a {
     padding: 25px 0 50px 0;
 }
 
+    .news-section img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 #map {
     width: 100%;
     height: 200px;
