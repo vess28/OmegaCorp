@@ -289,6 +289,12 @@ a {
         margin-bottom: 30px;
     }
 
+.crypto20-chart {
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom:40px;
+}
+
 .content-section {
     padding-top: 100px;
 }
