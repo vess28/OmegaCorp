@@ -292,7 +292,7 @@ a {
 .crypto20-chart {
     height: 500px;
     margin-top: 20px;
-    margin-bottom:40px;
+    margin-bottom: 40px;
 }
 
 .content-section {
@@ -441,6 +441,11 @@ img::selection {
 
 img::-moz-selection {
     background: 0 0;
+}
+
+.ico-campaign-table td {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .roadmap {
