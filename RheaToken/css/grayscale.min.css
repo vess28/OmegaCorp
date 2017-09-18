@@ -446,6 +446,12 @@ img::-moz-selection {
     height: 500px;
 }
 
+@media screen and (max-width: 500px) {
+    .chart-crypto20 {
+        height: 300px;
+    }
+}
+
 .chalkboard {
     margin-top: 25px;
     margin-bottom: 25px;
