@@ -282,6 +282,21 @@ a {
     margin-bottom: 50px;
 }
 
+.stand-out-main {
+    margin-bottom: 25px;
+}
+
+.stand-out-title {
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.stand-out-rating {
+}
+
 .pillars-section {
 }
 
