@@ -472,6 +472,11 @@ img::-moz-selection {
     margin-bottom: 25px;
 }
 
+.platform-preview {
+    padding-left:20px;
+    padding-right: 20px;
+}
+
 .ico-campaign-section {
     margin-bottom: 100px;
 }
