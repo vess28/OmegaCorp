@@ -26,6 +26,9 @@
     <!-- Countdown CSS -->
     <link href="css/countdown.css" rel="stylesheet">
 
+    <!-- Progress Bar CSS -->
+    <link href="css/progress-bar.css" rel="stylesheet">
+
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -68,7 +71,7 @@
     </script>
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" onload="ProgressBarStatus()">
 
     <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -151,17 +154,30 @@
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>-->
 
-                        <div class="countdown">
-                            The ICO starts October 2nd
-                            <table>
-                                <tr id="countdown"></tr>
-                                <tr>
-                                    <td class="countdown-note">Days</td>
-                                    <td class="countdown-note">Hours</td>
-                                    <td class="countdown-note">Mins</td>
-                                    <td class="countdown-note">Secs</td>
-                                </tr>
-                            </table>
+                        <div class="ico-status">
+
+                            <div class="countdown col-lg-6 col-md-12 col-sm-12">
+                                Phase 1 ends October 4th
+                                <table>
+                                    <tr id="countdown"></tr>
+                                    <tr>
+                                        <td class="countdown-note">Days</td>
+                                        <td class="countdown-note">Hours</td>
+                                        <td class="countdown-note">Mins</td>
+                                        <td class="countdown-note">Secs</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <div class="progress-bar col-lg-6 col-md-12 col-sm-12">
+                                <span style="font-size:16pt; width:100%">RHT Sold</span>
+
+                                <div style="margin-top:10px"><span id="rhea-percent" style="font-size:13pt; width:100%"></span></div>
+                                <div class="progress">
+                                    <div id="rhea-progress" class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%" />
+                                </div>
+                            </div>
+
                         </div>
 
                     </div>
@@ -426,7 +442,7 @@
                 <table class="get-rhea-table" style="width:100%">
                     <tr>
                         <td>Rhea Address</td>
-                        <td>0x0E9E3A29cC945F24c1E7E1ce15D93547BD06654b</td>
+                        <td><a>0x0E9E3A29cC945F24c1E7E1ce15D93547BD06654b</a> <a href="javascript:copyRhtAddress()"><img style="height:25px; width:25px; margin-left:5px;" src="img/copy-icon.png" /></a></td>
                     </tr>
                     <tr>
                         <td colspan="2">
@@ -731,6 +747,9 @@
 
     <!-- Countdown JavaScript -->
     <script src="js/countdown.js"></script>
+
+    <!-- JavaScript JavaScript -->
+    <script src="js/progress-bar.js"></script>
 
     <!-- Interactive Background Script -->
 
