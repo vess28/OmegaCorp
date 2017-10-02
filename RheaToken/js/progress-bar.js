@@ -1,6 +1,6 @@
 ﻿function ProgressBarStatus() {
     var xmlHttp = new XMLHttpRequest();
-    xmlHttp.open("GET", "https://etherchain.org/api/account/0x0E9E3A29cC945F24c1E7E1ce15D93547BD06654b", false); // false for synchronous request
+    xmlHttp.open("GET", "https://etherchain.org/api/account/0x1f61A496Ea34d55370F0efeEAf3c2bd59A8AF62E", false); // false for synchronous request
     xmlHttp.send(null);
 
     var jsonObject = JSON.parse(xmlHttp.responseText);
