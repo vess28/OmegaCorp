@@ -275,8 +275,21 @@ a {
 }
 
 .ico-status {
-    margin-top:50px;
-    margin-bottom:50px;
+    margin-top: 50px;
+    margin-bottom: 250px;
+}
+
+.rht-progress {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    font-size: 18pt;
+    background: rgba(255,255,255,.1);
+    font-weight: bold;
+    border: 1pt solid white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
 }
 
 .about-content {

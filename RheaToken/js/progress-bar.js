@@ -1,6 +1,6 @@
 ﻿function ProgressBarStatus() {
     var xmlHttp = new XMLHttpRequest();
-    xmlHttp.open("GET", "https://etherchain.org/api/account/0x1f61A496Ea34d55370F0efeEAf3c2bd59A8AF62E", false); // false for synchronous request
+    xmlHttp.open("GET", "https://etherchain.org/api/account/0x3a53999E9d66C6Fd95D6Eb3F1Be6114E91a3ed94", false); // false for synchronous request
     xmlHttp.send(null);
 
     var jsonObject = JSON.parse(xmlHttp.responseText);
@@ -11,12 +11,7 @@
     var totalBought = ethBalance * ethToRhea;
 
     var totalRheaTokens = totalBought * (1 / 0.85);
+    var rheaTokensRounded = Math.round(totalRheaTokens);
 
-    var rheaPercent = (totalBought / 50000000) * 100;
-    var rheaPercentRounded = Math.round(rheaPercent * 100) / 100
-
-    document.getElementById("rhea-percent").innerHTML = rheaPercentRounded + "%";
-    document.getElementById("rhea-progress").style.width = (rheaPercentRounded + "%");
-
-    return rheaPercentRounded;
+    document.getElementById("rhea-sold").innerHTML = rheaTokensRounded;
 }

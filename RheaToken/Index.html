@@ -26,9 +26,6 @@
     <!-- Countdown CSS -->
     <link href="css/countdown.css" rel="stylesheet">
 
-    <!-- Progress Bar CSS -->
-    <link href="css/progress-bar.css" rel="stylesheet">
-
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -134,13 +131,13 @@
         <div class="intro-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
                         <img src="img/logo-main.png" alt="RHEA" class="logo-main" />
                     </div>
 
                     <img src="section-titles/slogan.png" alt="The Future of Cryptotrading!" class="text-center img-responsive intro-text" />
 
-                    <div class="col-lg-12">
+                    <div class="col-lg-12" style="margin-bottom:50px;">
                         <ul class="list-inline banner-social-buttons">
                             <li>
                                 <a href="documentation/WhitePaper.pdf" target="_blank" class="btn btn-default btn-lg">Whitepaper</a>
@@ -156,7 +153,7 @@
 
                         <div class="ico-status">
 
-                            <div class="countdown col-lg-6 col-md-12 col-sm-12">
+                            <div class="countdown col-lg-3 col-lg-offset-3 col-md-4 col-md-offset-2 col-sm-12">
                                 Phase 1 ends October 4th
                                 <table>
                                     <tr id="countdown"></tr>
@@ -169,13 +166,13 @@
                                 </table>
                             </div>
 
-                            <div class="progress-bar col-lg-6 col-md-12 col-sm-12">
-                                <span style="font-size:16pt; width:100%">RHT Sold</span>
+                            <div class="col-lg-3 col-md-3 col-sm-12">
 
-                                <div style="margin-top:10px"><span id="rhea-percent" style="font-size:13pt; width:100%"></span></div>
-                                <div class="progress">
-                                    <div id="rhea-progress" class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%" />
+                                <div class="rht-progress">
+                                    <span>RHT Sold</span>
+                                    <br /><span id="rhea-sold"></span>
                                 </div>
+
                             </div>
 
                         </div>
@@ -441,8 +438,10 @@
             <div>
                 <table class="get-rhea-table" style="width:100%">
                     <tr>
-                        <td>Rhea Address</td>
-                        <td><a>0x1f61A496Ea34d55370F0efeEAf3c2bd59A8AF62E</a> <a href="javascript:copyRhtAddress()"><img style="height:25px; width:25px; margin-left:5px;" src="img/copy-icon.png" /></a></td>
+                        <td colspan="2">Rhea Address</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><a>0x3a53999E9d66C6Fd95D6Eb3F1Be6114E91a3ed94</a> <a href="javascript:copyRhtAddress()"><img style="height:25px; width:25px; margin-left:5px;" src="img/copy-icon.png" /></a></td>
                     </tr>
                     <tr>
                         <td colspan="2">
@@ -494,19 +493,19 @@
                             <table class="price-table">
                                 <tr><th>Price Per Token</th></tr>
                                 <tr>
-                                    <td>- Oct 2 - Oct 4</td>
+                                    <td>- Oct 2 - 4</td>
                                 </tr>
                                 <tr>
-                                    <td>- Oct 5 - Oct 8</td>
+                                    <td>- Oct 5 - 8</td>
                                 </tr>
                                 <tr>
-                                    <td>- Oct 9 - Oct 15</td>
+                                    <td>- Oct 9 - 15</td>
                                 </tr>
                                 <tr>
-                                    <td>- Oct 16 - Oct 22</td>
+                                    <td>- Oct 16 - 22</td>
                                 </tr>
                                 <tr>
-                                    <td>- Oct 23 - Oct 30</td>
+                                    <td>- Oct 23 - 30</td>
                                 </tr>
                             </table>
                         </td>
