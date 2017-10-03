@@ -41,6 +41,6 @@ var x = setInterval(function () {
     // If the count down is finished, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("countdown").innerHTML = "ICO Started!";
+        document.getElementById("countdown").innerHTML = "End of Current Phase";
     }
 }, 1000);
