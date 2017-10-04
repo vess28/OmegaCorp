@@ -15,7 +15,7 @@
 
 
     //Stage 1
-    var stageOneEth = 24;
+    var stageOneEth = 42.83651791;
     var stageOneRht = stageOneEth * ethToRheaOne;
 
     if (stageOneEth > 0)
